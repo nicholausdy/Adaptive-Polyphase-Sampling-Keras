@@ -20,7 +20,7 @@ Chaman, A., & Dokmanic, I. (2021). [**Truly Shift-Invariant Convolutional Neural
     pages     = {3773-3783}
 }
 ```
-Please write the above citation if you use codes from this repository.
+Please include the above citation if you use codes from this repository.
 
 ## Technical Overview
 ### Concept of Adaptive Polyphase Sampling (APS)
