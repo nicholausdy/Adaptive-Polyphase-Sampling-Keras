@@ -1,7 +1,7 @@
-# Adaptive-Polyphase-Sampling-Keras
+# Adaptive Polyphase Sampling on Keras
 Keras implementation of adaptive polyphase sampling (APS) on Resnet-20. APS enables shift-invariant downsampling.
 
-## Table of contents
+## Table of Contents
 1. [Citation](#citation)
 2. [Technical Overview](#technical-overview)
 3. [Getting Started](#getting-started)
