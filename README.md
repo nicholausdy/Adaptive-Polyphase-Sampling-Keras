@@ -20,17 +20,29 @@ Chaman, A., & Dokmanic, I. (2021). [**Truly Shift-Invariant Convolutional Neural
     pages     = {3773-3783}
 }
 ```
-The main library used to implement the proposed method in the paper is Keras, which is cited in the following BibText entry.
+The main library used to implement the proposed APS method is Keras, which is cited in the following BibText entry.
 ```BibText
 @misc{chollet2015keras,
-  title={Keras},
-  author={Chollet, Fran\c{c}ois and others},
-  year={2015},
-  publisher={GitHub},
-  howpublished={\url{https://github.com/fchollet/keras}},
+    title           = {Keras},
+    author          = {Chollet, Fran\c{c}ois and others},
+    year            ={2015},
+    publisher       ={GitHub},
+    howpublished    ={\url{https://github.com/fchollet/keras}},
 }
 ```
-Please include the above citation if you use codes from this repository.
+Additionally, the ResNet architecture used to evaluate APS in this implementation is adapted from the following codes with some significant changes.
+```BibText
+ @misc{lazar_2021, 
+    title       = {Building a resnet in Keras}, 
+    url         = {https://towardsdatascience.com/building-a-resnet-in-keras-e8f1322a49ba}, 
+    journal     = {Medium}, 
+    publisher   = {Towards Data Science}, 
+    author      = {Lazar, Dorian}, 
+    year        = {2021}, 
+    month       = {May}
+} 
+```
+Please include the above citations if you use codes from this repository.
 
 ## Technical Overview
 ### Concept of Adaptive Polyphase Sampling (APS)
