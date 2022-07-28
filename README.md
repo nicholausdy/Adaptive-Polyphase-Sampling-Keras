@@ -25,9 +25,9 @@ The main library used to implement the proposed APS method is Keras, which is ci
 @misc{chollet2015keras,
     title           = {Keras},
     author          = {Chollet, Fran\c{c}ois and others},
-    year            ={2015},
-    publisher       ={GitHub},
-    howpublished    ={\url{https://github.com/fchollet/keras}},
+    year            = {2015},
+    publisher       = {GitHub},
+    howpublished    = {\url{https://github.com/fchollet/keras}},
 }
 ```
 Additionally, the ResNet architecture used to evaluate APS in this implementation is adapted from the following codes with some significant changes.
