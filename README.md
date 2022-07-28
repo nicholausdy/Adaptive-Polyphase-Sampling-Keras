@@ -20,6 +20,16 @@ Chaman, A., & Dokmanic, I. (2021). [**Truly Shift-Invariant Convolutional Neural
     pages     = {3773-3783}
 }
 ```
+The main library used to implement the proposed method in the paper is Keras, which is cited in the following BibText entry.
+```BibText
+@misc{chollet2015keras,
+  title={Keras},
+  author={Chollet, Fran\c{c}ois and others},
+  year={2015},
+  publisher={GitHub},
+  howpublished={\url{https://github.com/fchollet/keras}},
+}
+```
 Please include the above citation if you use codes from this repository.
 
 ## Technical Overview
