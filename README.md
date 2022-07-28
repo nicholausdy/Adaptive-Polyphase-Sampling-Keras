@@ -20,7 +20,7 @@ Chaman, A., & Dokmanic, I. (2021). [**Truly Shift-Invariant Convolutional Neural
     pages     = {3773-3783}
 }
 ```
-The main library used to implement the proposed APS method is Keras, which is cited in the following BibText entry.
+The main library used to implement the proposed APS method is Keras with Tensorflow as its backend, which are cited in the following BibText entry.
 ```BibText
 @misc{chollet2015keras,
     title           = {Keras},
@@ -28,6 +28,55 @@ The main library used to implement the proposed APS method is Keras, which is ci
     year            = {2015},
     publisher       = {GitHub},
     howpublished    = {\url{https://github.com/fchollet/keras}},
+}
+```
+```BibText
+@misc{tensorflow2015-whitepaper,
+title={ {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+url={https://www.tensorflow.org/},
+note={Software available from tensorflow.org},
+author={
+    Mart\'{i}n~Abadi and
+    Ashish~Agarwal and
+    Paul~Barham and
+    Eugene~Brevdo and
+    Zhifeng~Chen and
+    Craig~Citro and
+    Greg~S.~Corrado and
+    Andy~Davis and
+    Jeffrey~Dean and
+    Matthieu~Devin and
+    Sanjay~Ghemawat and
+    Ian~Goodfellow and
+    Andrew~Harp and
+    Geoffrey~Irving and
+    Michael~Isard and
+    Yangqing Jia and
+    Rafal~Jozefowicz and
+    Lukasz~Kaiser and
+    Manjunath~Kudlur and
+    Josh~Levenberg and
+    Dandelion~Man\'{e} and
+    Rajat~Monga and
+    Sherry~Moore and
+    Derek~Murray and
+    Chris~Olah and
+    Mike~Schuster and
+    Jonathon~Shlens and
+    Benoit~Steiner and
+    Ilya~Sutskever and
+    Kunal~Talwar and
+    Paul~Tucker and
+    Vincent~Vanhoucke and
+    Vijay~Vasudevan and
+    Fernanda~Vi\'{e}gas and
+    Oriol~Vinyals and
+    Pete~Warden and
+    Martin~Wattenberg and
+    Martin~Wicke and
+    Yuan~Yu and
+    Xiaoqiang~Zheng},
+  year={2015},
 }
 ```
 Additionally, the ResNet architecture used to evaluate APS in this implementation is adapted from the following codes with some significant changes.
